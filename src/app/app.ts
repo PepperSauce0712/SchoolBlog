@@ -6,7 +6,7 @@ import { Homepage } from './pages/homepage/homepage';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Footer, Homepage],
+  imports: [Header, Footer, Homepage],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

@@ -16,43 +16,53 @@ export class Homepage {
   allPosts: BlogPost[] = [
     {
       id: 1,
-      title: '如何運用 AI 輔助備課？給老師的實用指南',
-      excerpt: '探討生成式 AI 如何幫助教師節省時間，從教案設計到作業批改的完整應用流程。',
+      title: '東方哲學經典選讀的現代解析與批判',
+      excerpt: '主要在講易經。',
       category: 'Teacher',
       imageUrl: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=500&q=80',
-      date: '2025-10-12'
+      date: '2025-10-12',
+      authorName: '李小華',
+      authorAvatarUrl: 'https://ui-avatars.com/api/?name=李小華&background=random',
     },
     {
       id: 2,
-      title: '高效學習法：番茄鐘工作術實戰',
-      excerpt: '你是否常常分心？試試看番茄鐘工作法，讓你在 25 分鐘內保持高度專注。',
+      title: '管理學分組報告心得',
+      excerpt: '為什麼要強制分組做六周報告RRRRRRR。',
       category: 'Student',
       imageUrl: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=500&q=80',
-      date: '2025-10-15'
+      date: '2025-10-15',
+      authorName: 'Shan',
+      authorAvatarUrl: 'https://ui-avatars.com/api/?name=Shan&background=random',
     },
     {
       id: 3,
-      title: '班級經營的藝術：建立正向的師生關係',
-      excerpt: '良好的師生關係是教學成功的基石，分享三個實用的溝通技巧。',
+      title: '文學通識',
+      excerpt: '期末需分組報告紅樓夢，請自行點開報告細節。',
       category: 'Teacher',
       imageUrl: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=500&q=80',
-      date: '2025-11-01'
+      date: '2025-11-01',
+      authorName: 'Emma',
+      authorAvatarUrl: 'https://ui-avatars.com/api/?name=Emma&background=random',
     },
     {
       id: 4,
-      title: '考前焦慮怎麼辦？心理師教你三招放鬆',
-      excerpt: '面對大考壓力，適度的緊張有助於表現，但過度焦慮則會適得其反。',
-      category: 'Student',
+      title: '微積分',
+      excerpt: '不及格的自己看補考事項。',
+      category: 'Teacher',
       imageUrl: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=500&q=80',
-      date: '2025-11-20'
+      date: '2025-11-20',
+      authorName: 'Kevin',
+      authorAvatarUrl: 'https://ui-avatars.com/api/?name=Kevin&background=random',
     },
      {
       id: 5,
-      title: '數位教學工具大評比',
-      excerpt: '從 Kahoot 到 Google Classroom，盤點適合國小至高中的數位工具。',
-      category: 'Teacher',
+      title: '程式設計期末專題',
+      excerpt: '有人知道怎麼做嗎？開價50求幫做。',
+      category: 'Student',
       imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=500&q=80',
-      date: '2025-12-05'
+      date: '2025-12-05',
+      authorName: '明大志',
+      authorAvatarUrl: 'https://ui-avatars.com/api/?name=明大志&background=random',
     }
   ];
 
